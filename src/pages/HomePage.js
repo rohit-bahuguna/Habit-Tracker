@@ -6,7 +6,7 @@ import HabitForm from '../components/HabitForm'
 const HomePage = () => {
     const { habits, toggle, setToggle } = useHabitData()
     return (
-        <div className='grid grid-rows-4 grid-col-4 gap-4' >
+        <div className='flex gap-10 flex-wrap p-10' >
             <div className='flex  justify-between   border w-56 bg-gray-200'
                 onClick={() => {
                     setToggle(true)
