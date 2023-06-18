@@ -8,7 +8,7 @@ const HomePage = () => {
     return (
         <>
             <Link to="/archive">
-                <button className='border px-5 rounded-full  bg-sky-400 text-xl ' >Go To Archive</button></Link>
+                <button className='border px-5  mt-10 rounded-full  bg-sky-400 text-xl ' >Go To Archive</button></Link>
             <div className='flex gap-10 flex-wrap p-10' >
                 <div className='flex  justify-between   border w-56 bg-gray-200'
                     onClick={() => {

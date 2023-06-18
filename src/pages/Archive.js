@@ -9,7 +9,7 @@ const Archive = () => {
 
             {
                 archivedHabit && archivedHabit.map(({ id, name, image }) =>
-                    <div className='flex  justify-between   border w-56 bg-gray-200'
+                    <div className='flex  justify-between  mt-10 border w-56 bg-gray-200'
                     // onClick={() => {
                     // navigate(`/habit-detail/${id}`)
                     // }}
