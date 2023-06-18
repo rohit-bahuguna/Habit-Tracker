@@ -11,6 +11,9 @@ const habitContext = createContext(null);
 const useHabitData = () => useContext(habitContext);
 
 const HabitProvider = ({ children }) => {
+    localStorage.setItem("habits", JSON.stringify([]))
+    localStorage.setItem("archivedHabits", JSON.stringify([]))
+
     const [habits, setHabits] = useState();
     const [archivedHabit, setArchivedHabit] = useState([])
     const [toggle, setToggle] = useState(false)
